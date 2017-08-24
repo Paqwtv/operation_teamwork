@@ -1,5 +1,9 @@
 require "logger/version"
+require "logger/get_data"
 
 module Logger
-  # Your code goes here...
+	class SimpleLogger
+	  include GetData
+
+	end
 end

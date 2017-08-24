@@ -1,4 +1,5 @@
 module GetData
+	private
 	def get_data
 		class_name = self.class.name
 		puts %w(----------)
